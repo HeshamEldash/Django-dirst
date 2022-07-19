@@ -1,0 +1,9 @@
+<h1> YOU ARE LOGGED IN</h1>
+<h1>
+    {{user}}
+</h1>
+
+<form method="post" action="">
+        {%csrf_token%}
+    <button type="submit">Logout</button>
+</form>
